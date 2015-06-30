@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>AngularFlask</title>
+
+    <script src="/static/lib/angular/angular.min.js"></script>
+    <script src="/static/lib/angular/angular-resource.min.js"></script>
+
+    <script src="/static/js/app.js"></script>
+    <script src="/static/js/controller.js"></script>
+    <script src="/static/js/service.js"></script>
+</head>
+<body ng-app="myApp">
+	rendering yeahhhh
+	<br>
+	<br>
+
+	<div ng-controller="MainController">
+		Static Data:
+		<br>
+    	{{ data }}
+
+    	<br>
+    	<br>
+    	
+    	From Api:
+    	<br>
+    	{{ api }}
+	</div>
+</body>
+</html>
